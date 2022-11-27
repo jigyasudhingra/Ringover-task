@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React from 'react'
 import { CartState } from '../../../Context/Context'
@@ -6,7 +7,7 @@ import LEFT_ARROW from '../../../Assets/left-arrow.png'
 import STAR from '../../../Assets/star.png'
 
 const ProductDescripion: React.FC = () => {
-  const { state } = CartState()
+  const { state, dispatch } = CartState()
 
   // Finding the Product from all the products
   let product = state.products
@@ -84,8 +85,8 @@ const ProductDescripion: React.FC = () => {
             width: '100%',
           }}
         >
-          {[...Array(5)].map(() => (
-            <img src={STAR} alt="unfill-star" width="2%" />
+          {[...Array(5)].map((i, ind) => (
+            <img key={ind} src={STAR} alt="unfill-star" width="2%" />
           ))}
         </div>
       </div>
@@ -101,6 +102,12 @@ const ProductDescripion: React.FC = () => {
             backgroundColor: 'black',
             color: 'white',
             cursor: 'pointer',
+          }}
+          onClick={() => {
+            dispatch({
+              type: 'ADD_TO_CART',
+              payload: product[0],
+            })
           }}
         >
           add to cart
@@ -166,6 +173,7 @@ const Description = (product: ProductProps) => {
       {['Front', 'Middle', 'Back', 'Sole', 'Size'].map((j, ind) => {
         return (
           <div
+            key={ind}
             style={{
               display: 'flex',
               alignItems: 'center',
@@ -193,11 +201,12 @@ const Description = (product: ProductProps) => {
                 : ['wheat', 'grey', 'wheat']
               ).map((i, idx) => (
                 <div
-                  key={i}
+                  key={idx}
                   style={{
                     padding: j === 'Size' ? '2px 6px' : 10,
                     backgroundColor: i,
                     marginLeft: '20%',
+                    backdropFilter: `blur(5px)`,
                   }}
                 >
                   {j === 'Size' && idx + 3}
