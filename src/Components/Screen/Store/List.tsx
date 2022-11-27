@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from 'react'
 import SEARCH from '../../../Assets/search.png'
 import STAR from '../../../Assets/star.png'
@@ -67,6 +68,7 @@ const ShoesListingHeader = () => (
 const ProductsListing = () => {
   const {
     state: { products },
+    dispatch,
     productState,
   } = CartState()
 
@@ -102,7 +104,6 @@ const ProductsListing = () => {
       }}
     >
       {FilteredProduct().map((i: ProductProps) => (
-        // eslint-disable-next-line jsx-a11y/no-static-element-interactions
         <div
           key={i.id}
           style={{
@@ -110,15 +111,15 @@ const ProductsListing = () => {
             cursor: 'pointer',
             minHeight: '10%',
           }}
-          onClick={() => {
-            window.location.href = `/product/${i.id}`
-          }}
-          onKeyDown={() => {}}
         >
           <div
             style={{
               padding: '10px 0px',
             }}
+            onClick={() => {
+              window.location.href = `/product/${i.id}`
+            }}
+            onKeyDown={() => {}}
           >
             <img
               src={i.img}
@@ -166,6 +167,18 @@ const ProductsListing = () => {
               </div>
             </div>
           </div>
+          <button
+            style={{ width: '100%', marginTop: '5%' }}
+            type="button"
+            onClick={() =>
+              dispatch({
+                type: 'ADD_TO_CART',
+                payload: i,
+              })
+            }
+          >
+            add to cart
+          </button>
         </div>
       ))}
     </div>
