@@ -172,7 +172,7 @@ const ProductsListing = () => {
   )
 }
 
-const getRating = (rating: number) => {
+export const getRating = (rating: number) => {
   const ratingStarType = []
   for (let i = 0; i < rating; i += 1) ratingStarType.push('fill')
   for (let i = 0; i < 5 - rating; i += 1) ratingStarType.push('empty')

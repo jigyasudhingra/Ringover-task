@@ -102,12 +102,12 @@ const CostFilter = () => {
     {
       id: 1,
       lower: 1500,
-      upper: 4000,
+      upper: 2000,
     },
     {
       id: 2,
-      lower: 4001,
-      upper: 7000,
+      lower: 2001,
+      upper: 5000,
     },
   ]
 
