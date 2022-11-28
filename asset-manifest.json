@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ringover-task/static/css/main.c0b6357b.css",
-    "main.js": "/Ringover-task/static/js/main.045aae3f.js",
+    "main.js": "/Ringover-task/static/js/main.c4c11c3b.js",
     "static/media/shoe2.png": "/Ringover-task/static/media/shoe2.ef5414e508ed55925e20.png",
     "static/media/cross.png": "/Ringover-task/static/media/cross.27ddf8832902fa05e611.png",
     "static/media/tonikroos.jpg": "/Ringover-task/static/media/tonikroos.fb061c76e3ec05875a55.jpg",
@@ -18,10 +18,10 @@
     "static/media/cart.webp": "/Ringover-task/static/media/cart.40aa391375c7327d2ddd.webp",
     "index.html": "/Ringover-task/index.html",
     "main.c0b6357b.css.map": "/Ringover-task/static/css/main.c0b6357b.css.map",
-    "main.045aae3f.js.map": "/Ringover-task/static/js/main.045aae3f.js.map"
+    "main.c4c11c3b.js.map": "/Ringover-task/static/js/main.c4c11c3b.js.map"
   },
   "entrypoints": [
     "static/css/main.c0b6357b.css",
-    "static/js/main.045aae3f.js"
+    "static/js/main.c4c11c3b.js"
   ]
 }
