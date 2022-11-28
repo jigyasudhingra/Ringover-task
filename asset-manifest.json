@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.340d6a26.css",
-    "main.js": "/static/js/main.dcfb3f79.js",
-    "static/media/shoe2.png": "/static/media/shoe2.ef5414e508ed55925e20.png",
-    "static/media/cross.png": "/static/media/cross.27ddf8832902fa05e611.png",
-    "static/media/tonikroos.jpg": "/static/media/tonikroos.fb061c76e3ec05875a55.jpg",
-    "static/media/grasspic.jpg": "/static/media/grasspic.60d418585600b05647eb.jpg",
-    "static/media/Product_Sans.ttf": "/static/media/Product_Sans.863727019c4716c4dc24.ttf",
-    "static/media/christiano.jpg": "/static/media/christiano.6c59ff44f69c755a3933.jpg",
-    "static/media/star.png": "/static/media/star.b1637669971807133d0d.png",
-    "static/media/user.png": "/static/media/user.c2b12d0011c453b98212.png",
-    "static/media/zidane.jpg": "/static/media/zidane.b7444a37d5bbb4202777.jpg",
-    "static/media/fill-star.png": "/static/media/fill-star.6057d5dbf8f0eac9c7b1.png",
-    "static/media/medium.png": "/static/media/medium.b87629cbe6267bf69b33.png",
-    "static/media/ikercasillas.jpg": "/static/media/ikercasillas.3d1a1e063e58e3314681.jpg",
-    "static/media/left-arrow.png": "/static/media/left-arrow.e52b523be466a90e7590.png",
-    "static/media/cart.webp": "/static/media/cart.40aa391375c7327d2ddd.webp",
-    "index.html": "/index.html",
-    "main.340d6a26.css.map": "/static/css/main.340d6a26.css.map",
-    "main.dcfb3f79.js.map": "/static/js/main.dcfb3f79.js.map"
+    "main.css": "/Ringover-task/static/css/main.c0b6357b.css",
+    "main.js": "/Ringover-task/static/js/main.045aae3f.js",
+    "static/media/shoe2.png": "/Ringover-task/static/media/shoe2.ef5414e508ed55925e20.png",
+    "static/media/cross.png": "/Ringover-task/static/media/cross.27ddf8832902fa05e611.png",
+    "static/media/tonikroos.jpg": "/Ringover-task/static/media/tonikroos.fb061c76e3ec05875a55.jpg",
+    "static/media/grasspic.jpg": "/Ringover-task/static/media/grasspic.60d418585600b05647eb.jpg",
+    "static/media/Product_Sans.ttf": "/Ringover-task/static/media/Product_Sans.863727019c4716c4dc24.ttf",
+    "static/media/christiano.jpg": "/Ringover-task/static/media/christiano.6c59ff44f69c755a3933.jpg",
+    "static/media/star.png": "/Ringover-task/static/media/star.b1637669971807133d0d.png",
+    "static/media/user.png": "/Ringover-task/static/media/user.c2b12d0011c453b98212.png",
+    "static/media/zidane.jpg": "/Ringover-task/static/media/zidane.b7444a37d5bbb4202777.jpg",
+    "static/media/fill-star.png": "/Ringover-task/static/media/fill-star.6057d5dbf8f0eac9c7b1.png",
+    "static/media/medium.png": "/Ringover-task/static/media/medium.b87629cbe6267bf69b33.png",
+    "static/media/ikercasillas.jpg": "/Ringover-task/static/media/ikercasillas.3d1a1e063e58e3314681.jpg",
+    "static/media/left-arrow.png": "/Ringover-task/static/media/left-arrow.e52b523be466a90e7590.png",
+    "static/media/cart.webp": "/Ringover-task/static/media/cart.40aa391375c7327d2ddd.webp",
+    "index.html": "/Ringover-task/index.html",
+    "main.c0b6357b.css.map": "/Ringover-task/static/css/main.c0b6357b.css.map",
+    "main.045aae3f.js.map": "/Ringover-task/static/js/main.045aae3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.340d6a26.css",
-    "static/js/main.dcfb3f79.js"
+    "static/css/main.c0b6357b.css",
+    "static/js/main.045aae3f.js"
   ]
 }
