@@ -117,7 +117,7 @@ const ProductsListing = () => {
               padding: '10px 0px',
             }}
             onClick={() => {
-              window.location.href = `/product/${i.id}`
+              window.location.href = `/Ringover-task/#/product/${i.id}`
             }}
             onKeyDown={() => {}}
           >

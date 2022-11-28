@@ -44,7 +44,7 @@ const ProductDescripion: React.FC = () => {
             cursor: 'pointer',
           }}
           onClick={() => {
-            window.location.href = '/store'
+            window.location.href = '/Ringover-task/#/store/'
           }}
           onKeyDown={() => {}}
         />
@@ -135,6 +135,7 @@ const Images = (product: ProductProps) => {
         overflowY: 'scroll',
         marginLeft: '4%',
         alignSelf: 'center',
+        height: '100%',
       }}
     >
       {[...Array(5)].map((i, idx) => (

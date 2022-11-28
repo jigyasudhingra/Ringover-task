@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       style={{
-        padding: '5% 38%',
+        padding: '2% 34%',
       }}
     >
       <div
@@ -25,10 +25,12 @@ const Contact = () => {
         </p>
         {/* <br /> */}
         <div
-          style={{
-            textAlign: 'left',
-            textAlignLast: 'left',
-          }}
+          style={
+            {
+              // textAlign: 'left',
+              // textAlignLast: 'left',
+            }
+          }
         >
           <div
             style={{

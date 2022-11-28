@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import Home from './Components/Screen/Home'
 import Journey from './Components/Screen/Journey'
 import Team from './Components/Screen/Team'
@@ -12,7 +12,7 @@ import NavigationMenu from './Components/NavigationMenu'
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <NavigationMenu />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/product/:id" element={<Product />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
